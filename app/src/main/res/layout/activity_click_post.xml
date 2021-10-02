@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".ClickPostActivity">
+
+    <ImageView
+        android:id="@+id/click_post_image"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/select_image" />
+
+    <TextView
+        android:id="@+id/click_post_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="344dp"
+        android:text="Post Description"
+        android:background="@drawable/inputs"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/edit_post_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="272dp"
+        android:background="@drawable/button"
+        android:text="Edit Button" />
+
+    <Button
+        android:id="@+id/delete_post_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="195dp"
+        android:background="@drawable/button"
+        android:text="Delete Post" />
+</RelativeLayout>
